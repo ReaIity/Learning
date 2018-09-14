@@ -1,0 +1,163 @@
+body {
+	margin: 0;
+	padding: 0;
+	width: auto;
+	height: auto;
+	overflow-x: hidden;
+}
+p { 
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    border: 1px solid lavenderblush;
+}
+a {
+	text-decoration: none;
+}
+.back {
+	position: absolute;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	background: white;
+}
+.nightBack {
+	position: absolute;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	background: rgba(19,19,19,1);
+}
+.wrapper {
+	font-family: 'Poppins', sans-serif;
+	width: 100%;
+	height: 100%;
+}
+.nightWrapper {
+	background: rgba(19,19,19,1);
+	font-family: 'Poppins', sans-serif;
+	width: 100%;
+	height: 100%;
+}
+.mainTitle {
+	filter: drop-shadow(2px 3px 5px blue);
+	color: mistyrose;
+	font-size: 50px;
+	text-align: center;
+	width: 99.75%;
+	margin: 0;
+	border: 1px solid lavender;
+	padding: 20px 0 20px 0;
+}
+.nightMainTitle {
+	filter: drop-shadow(2px 3px 5px blue);
+	color: lightblue;
+	font-size: 50px;
+	text-align: center;
+	width: 99.75%;
+	margin: 0;
+	border: 1px solid lightblue;
+	box-shadow: 0px 3px 5px lightblue;
+	padding: 20px 0 20px 0;
+}
+.description {
+	filter: drop-shadow(2px 3px 5px blue);
+	color: mistyrose;
+	font-size: 40px;
+	text-align: center;
+	width: 100%;
+	margin: 10px 0 0 0;
+	padding: 20px 0 20px 0;
+
+}
+.nightDescription {
+	filter: drop-shadow(2px 3px 5px blue);
+	color: lightblue;
+	font-size: 40px;
+	text-align: center;
+	width: 100%;
+	margin: 10px 0 0 0;
+	padding: 20px;
+	padding: 20px 0 20px 0;
+}
+.checkBack {
+	position: absolute;
+	top: 0px;
+	left: 11px;
+	width: 2.5%;
+	height: 3%;
+	color: darkviolet;
+	padding: 3px 5px 0 5px;
+	border: 1px solid lavender;
+	box-shadow: 3px 3px 3px lavender;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	font-size: 100%;
+	vertical-align: middle;
+	text-align: center;
+}
+.checkBack:hover {
+	color: darkviolet;
+	opacity: 0.5;
+	background: white;
+	width: auto;
+	height: 3%;
+	padding: 2px;
+}
+.checkBackMouseOut {
+	position: absolute;
+	top: 0px;
+	left: 11px;
+	width: 2.5%;
+	height: 3%;
+	color: gold;
+	padding: 3px 5px 0 5px;
+	border: 1px solid lavender;
+	box-shadow: 3px 3px 3px lavender;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	font-size: 100%;
+	vertical-align: middle;
+	text-align: center;
+}
+.checkBackNightTheme {
+	min-width: 2.5%;
+	color: #F6FA0E;
+	opacity: 0.5;
+	background: rgba(19,19,19,1);
+	width: auto;
+	height: 3%;
+}
+.checkBackNightTheme:hover {
+	position: absolute;
+	top: 0px;
+	left: 11px;
+	width: auto;
+	height: 3%;
+	color: #F6FA0E;
+	background: black;
+	padding: 3px 5px 0 5px;
+	border: 1px solid lavender;
+	box-shadow: 3px 3px 3px lavender;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	font-size: 100%;
+	vertical-align: middle;
+	text-align: center;
+}
+.windowsBox {
+	margin: 10% 0 0 18%;
+    width: 300px;
+    height: 250px;
+    max-width: 300px;
+    max-height: 250px;
+    border-radius: 3px;
+    box-shadow: 3px 3px 3px lavender;
+    border: 1px solid blue;
+    background: url('back.png');
+    display: flex;
+    flex-direction: row;
+}
